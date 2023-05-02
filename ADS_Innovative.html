@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>LRU Cache Using Splay Tree</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link href='splay.css' rel="stylesheet">
+  <link href='diagram.css' rel="stylesheet">
+</head>
+<body>
+
+<div class="container-fluid">
+
+    <div id="top-options" class="row">
+      <div style="text-align: center; color: blue; font-size: 30px; font-family: 'Times New Roman', Times, serif;font-weight: bold;">LRU CACHE IMPLEMENTATION USING SPLAY TREE
+      </div>
+      <div align="center" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 column">
+        <form id="add-form" class="form-group">
+          <h4 style="margin-left: 55px; color: rgb(255, 0, 200); font-weight: bold;">Add&nbsp;&frasl;&nbsp;Update</h4>
+          <div>
+            <label for="keyText" style="color:red">Key (number)</label>
+            <input id="keyText" name="keyText" class="form-control" type="text"/>
+          </div>
+          <div>
+            <label for="valText" style="color:red">Value (string)</label>
+            <input id="valText" name="valText" class="form-control" type="text"/>
+          </div>
+          <button id="add-submit" type="submit" class="btn btn-default">Add</button>
+        </form>
+      </div>
+      <div align="center" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 column">
+        <form id="remove-form" class="form-group">
+          <h4 style="margin-left: 20px; color: rgb(255, 0, 157); font-weight: bold;">Remove</h4>
+          <label for="removeText" style="color:red">Key (number)</label>
+          <input id="removeText" name="removeText" class="form-control" type="text"/>
+          <button id="remove-submit" type="submit" class="btn btn-default">Remove</button>
+        </form>
+      </div>
+      <div align="center" class="col-xs-4 col-sm-4 col-md-4 col-lg-4 column">
+        <form id="search-form" class="form-group">
+          <h4 style="margin-left: 10px; color: rgb(255, 0, 195); font-weight: bold;">Find</h4>
+          <label for="searchText" style="color:red">Key (number)</label>
+          <input id="searchText" name="searchText" class="form-control" type="text"/>
+          <button id="search-submit" type="submit" class="btn btn-default">Find</button>
+        </form>
+      </div>
+    </div>
+ 
+    <div id="tree-display"></div>
+
+    <div id="bottom-options" class="row">
+      
+      <div class="row">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 column">
+          <button id="max-button" class="btn btn-default center-block">Find Maximum</button>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 column">
+          <button id="min-button" class="btn btn-default center-block">Find Minimum</button>
+        </div>
+        <div align = "center" id="intro">
+          <label style="text-align: right;">MADE BY:</label><br>
+          <label style="text-align: right;">20BCE129 - Kinar Sheth</label><br>
+          <label style="text-align: right;">20BCE160 - Heni Mehta</label>
+        </div>
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 column">
+          <img id="logo" src="Nirma University.png" alt="Nirma Logo"/>
+        </div>
+      </div>
+    </div>
+
+</div>
+
+    <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <script src="Splay-Tree.js"></script>
+</body>
+</html>

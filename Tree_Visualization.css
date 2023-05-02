@@ -1,0 +1,166 @@
+
+.node circle {
+    fill: #ffff00;
+    stroke: palevioletred;
+    stroke-width: 3px;
+  }
+  
+  .node text { 
+    font-size: 15px; 
+  }
+  
+  .link {
+    fill: none;
+    stroke: #4400ff;
+    stroke-width: 2px;
+  }
+  
+  .selected {
+    fill: #0000FF;
+  }
+  
+  .max {
+    fill: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+  
+  .min {
+    fill: #FF0000;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+  }
+  #max-button{
+    width : 140px;
+    height: 35px;
+    border-color: black;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  #max-button:hover{
+    width : 135px;
+    height: 32px;
+    border-color: black;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+  }
+  #min-button{
+    width : 140px;
+    height: 35px;
+    border-color: black;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-left: 330px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  #min-button:hover{
+    width : 135px;
+    height: 32px;
+    border-color: black;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+  }
+  #search-submit{
+    width : 140px;
+    height: 35px;
+    border-color: black;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  #remove-submit{
+    width : 140px;
+    height: 35px;
+    border-color: black;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  #add-submit{
+    width : 140px;
+    height: 35px;
+    border-color: black;
+    background-color: black;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-left: 25px;
+    cursor: pointer;
+  }
+  #search-submit:hover{
+    width : 135px;
+    height: 32px;
+    border-color: black;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+  }
+  #remove-submit:hover{
+    width : 135px;
+    height: 32px;
+    border-color: black;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+  }
+  #add-submit:hover{
+    width : 135px;
+    height: 32px;
+    border-color: black;
+    background-color: white;
+    color: black;
+    font-weight: 600;
+  }
+  #intro{
+    width: 250px;
+    padding: 5px;
+    border: 2px solid red;
+    background-color: white;
+    margin: 10;
+    margin-left:970px;
+    cursor:pointer;
+  }
+  #intro:hover{
+    width : 251px;
+    height: 100px;
+    border-color: black;
+    background-color: lightpink;
+    color: black;
+    font-weight: 600;
+  }
+  .max, .min {
+    transition: all 0.2s ease-in;	
+  }
+  .max text, .min text, .selected text {
+    font-size: 14px;
+  }
+  #logo{
+    position: relative;
+    margin-top: -100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+  
